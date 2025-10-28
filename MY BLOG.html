@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY BLOG</title>
+    <link rel="icon" href="./GPS.jpg" type="image/x-icon">
+    <style>
+        body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: url('./kenny.jpg') no-repeat center center fixed;
+        background-size:cover;
+        color: #333;
+        }
+        
+
+        .container {
+        display: flex;
+        justify-content:space-evenly;
+        padding: 50px;
+        }
+
+        .pick {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        width: 300px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .pick img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        }
+
+        .card-content {
+        padding: 15px;
+        flex-grow: 1;
+        }
+
+        .stats {
+            display: flex;
+            flex-direction: row;
+            /* background-color: #a71f1f; */
+            width: 100%;
+            padding: 10px 0;
+            border-top: 1px solid #fff;
+            margin: 0%;
+            border: 1px solid #a71f1f;
+        }
+        .pick h3 {
+        margin-top: 0; 
+        font-size: 1.2em;
+        color: #a71f1f;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="pick">
+            <img src="./road.jpg" alt="Blog Post 1">
+            <div class="card-content">
+                <h3>ROAD TRIPS</h3>
+                <p class="excerpt">Discover the beauty of mountain landscapes and the thrill of hiking through rugged terrains.</p>
+                <p class="meta">By John Doe | Jan 15, 2024</p>
+                <div class="stats">
+                    <span>120 LIKES</span>
+                    <span>30 VIEWS</span>
+                    <span>320 COMMENTS</span>
+                </div>
+            </div>
+        </div>
+        <div class="pick">
+            <img src="./arena.jpg" alt="Blog Post 2">
+            <div class="card-content">
+                <h3>SPORTS ARENA</h3>
+                <p class="excerpt">Join us as we explore exotic cuisines and share recipes from around the world.</p>
+                <p class="meta">By Jane Smith | Feb 10, 2024</p>
+                <div class="stats">
+                    <span>200 LIKES</span>
+                    <span>50 VIEWS</span>
+                    <span>150 COMMENTS</span>
+                </div>
+            </div>
+        </div>
+        <div class="pick">
+            <img src="./fifa.jpg" alt="Blog Post 3">
+            <div class="card-content">
+                <h3>VIDEO GAMES</h3>
+                <p class="excerpt">A deep dive into the latest technological advancements shaping our future.</p>
+                <p class="meta">By Alex Johnson | Mar 5, 2024</p>
+                <div class="stats">
+                    <span>300 LIKES</span>
+                    <span>80 VIEWS</span>
+                    <span>220 COMMENTS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
